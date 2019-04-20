@@ -35,3 +35,9 @@ xmm = np.array([xm, ym, zm, qm])
 
 bam = np.array([am, bm, cm, dm])
 bxm = np.array([xm, ym, zm, qm])
+
+############################################
+
+rm = np.array(range(12), float).reshape(3,4)
+arm = np.arange(6, dtype=float)
+arm2 = np.arange(-2, 18, 2, dtype=float)
