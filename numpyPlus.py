@@ -32,12 +32,59 @@ qm = xm.copy()
 amm = np.array([am, bm, cm, dm])
 xmm = np.array([xm, ym, zm, qm])
 
+bmm = amm.copy()
+cmm = amm.copy()
+dmm = amm.copy()
+
+ymm = xmm.copy()
+zmm = xmm.copy()
+qmm = xmm.copy()
+
 
 bam = np.array([am, bm, cm, dm])
 bxm = np.array([xm, ym, zm, qm])
+
+
+# init 4 metrik arrays
+
+ammm = np.array([amm, bmm, cmm, dmm])
+xmmm = np.array([xmm, ymm, zmm, qmm])
+
 
 ############################################
 
 rm = np.array(range(12), float).reshape(3,4)
 arm = np.arange(6, dtype=float)
 arm2 = np.arange(-2, 18, 2, dtype=float)
+
+def masrazm(massiv):
+    masrazmer = np.array([0], int)
+    i = 0
+    for x in massiv.shape:
+        if i == 0:
+            masrazmer[i] = x
+            #print("i = ", i, " x = ", x)
+        else:
+            masrazmer = np.append(masrazmer, [x])
+            #print("i = ", i, " x = ", x)
+        i += 1
+        # print(x)
+
+    return masrazmer
+
+def masrazm_print(massiv):
+    masrazmer = np.array([0], int)
+    i = 0
+    for x in massiv.shape:
+        if i == 0:
+            masrazmer[i] = x
+            #print("i = ", i, " x = ", x)
+        else:
+            masrazmer = np.append(masrazmer, [x])
+            #print("i = ", i, " x = ", x)
+        i += 1
+        # print(x)
+
+    print("Mass razm is ", masrazmer)
+    print("Razmernost for masrazm is ", i)
+    return masrazmer
