@@ -4,6 +4,7 @@ let epY = 0;
 let epX = 0;
 let epZ = 0;
 let size = 100;
+let check = 10;
 
 //let skyImage;
 let rhTex;;
@@ -37,18 +38,18 @@ background(200,100,100);
 epZ = map(mouseY, 100, height, 0, -500);
 epX = map(mouseX, 100, 1000, 0, -500);
 epY = map(mouseY, 100, 1000, 0, -500);
+renderEggPlanet();
 
-//plane(50, 50);
-
-rotateX(-mouseX * 0.01);
-rotateY(-mouseY * 0.01);
+//plane(300, 500, 100, 10);
+check += 0.01;
+//rotateX(check);
+//rotateY(check);
 box(50, 50, 50, 3, 3);
 
-renderEggPlanet();
+
 
 
 console.log("draw function!");
-
 
 }
 
@@ -57,10 +58,11 @@ console.log("draw function!");
 function renderEggPlanet(){
 
 	texture(rhTex);
-	translate(epX,epY,epZ);
-	//rotateY(radians(mouseX/4));
+	///translate(epX,epY,epZ);
 	rotateZ(radians(-mouseX/4));
 	rotateX(radians(-mouseY/4));
+	
+	rotateY(radians(mouseX/4));
 	
 	sphere(size);
 
