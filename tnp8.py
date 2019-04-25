@@ -45,6 +45,7 @@ print("x.clip(0, 3.5)", x.clip(0, 3.5), "\n")
 print("---------------------------\n")
 
 x = np.array([1, 1, 4, 5, 5, 5, 7], float)
+y = np.array([3, 1, 5, 2, 4, 6, 8], float)
 print("x is \n", x)
 
 print("np.unique(x)", np.unique(x), "\n")
@@ -55,4 +56,10 @@ print("xm is \n", xm)
 print("xm.diagonal()", xm.diagonal(), "\n")
 
 print("---------------------------\n")
+
+print("x is \n", x)
+print("y is \n", y)
+
+
+print("x > y", x > y)
 
