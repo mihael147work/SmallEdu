@@ -1,5 +1,5 @@
 from numpyPlus import *
-
+import random
 
 print("xm(4, 4) is \n", xm)
 
@@ -61,3 +61,14 @@ print("Old jj shape is ", jj.shape)
 
 print("New ii shape is ", ii1.shape)
 print("New jj shape is ", jj1.shape)
+
+m1=3
+n1=3
+m2=3
+n2=3
+
+matrix1 = [[random.randint(0, 10) for i in range(m1)] for j in range(n1)]
+matrix2 = [[0 for k in range(m2)] for l in range(n2)]
+
+print("1 матрица:", np.array(matrix1))
+print("2 матрица:", np.array(matrix2))

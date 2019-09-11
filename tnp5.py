@@ -41,3 +41,5 @@ print("aa + bb[:,np.newaxis] \n", aa + bb[:,np.newaxis])
 
 print("--------------------------------------------------")
 
+
+#print("ak * ap \n", ak * ap)

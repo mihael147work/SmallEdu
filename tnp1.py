@@ -19,7 +19,7 @@ print("--------------------------------------------------")
 
 
 len(bm)
-n = 5 in x
+n = 2 in x
 print (n, "and ", len(x))
 
 print("am is\n", am)
