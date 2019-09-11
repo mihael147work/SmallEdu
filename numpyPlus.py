@@ -59,68 +59,94 @@ arm2 = np.arange(-2, 18, 2, dtype=float)
 
 def matrix_mnoj(massiv1, massiv2, flag=0):
     mi = massiv1.shape[1]
-    mj = massiv1.shape[0]
     mk = massiv2.shape[1]
+    result = [[0 for k in range(mk)] for l in range(mk)]
 
     if massiv1.shape[1] == massiv2.shape[0]:
-        #print("shape of matrix is correct")
-        #print("shape of result ", massiv1.shape[1], "x", massiv2.shape[0])
-        razm = massiv1.shape[1]
-        res = np.array
-
-        i = 0
-        j = 0
-        k = 0
-
-        # print("---------begin---------")
-        #
-        # print("massiv1 is", massiv1)
-        # print("massiv2 is", massiv2)
-
-        result = [[0 for k in range(mk)] for l in range(mk)]
 
         for j in range(mk):
-            # print("j=", j)
             for k in range(mk):
-                # print("k=", k)
-                znacen = 0
-
-                # print("-----------------")
-                # print("j is -", j)
-                # print("i is -", i)
-                #
-                # print("k is -", k)
-                # print("p is -", p)
                 znacen = 0
 
                 for i in range(mi):
-                    # print("i=", i)
-                    # print("massiv1[", k, "][", i, "] is -", massiv1[k][i])
-                    # print("massiv2[", i, "][", j, "] is -", massiv2[i][j])
-                    # print("massiv1[", k, "][", i, "] * massiv2[", i, "][", j, "] is -", massiv1[k][i] * massiv2[i][j])
-
                     znacen += massiv1[k][i] * massiv2[i][j]
-                # znacen = massiv1[i][k]
-                # print("znacen = ", znacen)
                 result[k][j] = znacen
 
-                i = 0
-                znacen = 0
-
-        # print("array slicing is work ak[:,1] ->", ak[:,1])
-        # print("array slicing is work ap[2,:] ->", ap[2,:])
-
         if flag == 1:
-            print("shape of matrix is correct")
-            print("shape of result ", massiv1.shape[1], "x", massiv2.shape[0])
+            print("shape of result ", massiv1.shape[0], "x", massiv2.shape[1])
             print(result)
-        else:
-            print("flag is not 1")
+        else:                               # - можно убрать - отладочный маркер про флаг
+            print("Print-flag is not 1")    # - Есть необязательный параметр после матриц - если указать 1 то выводит результат в консоль
     else:
         print("razmernost matric ne correctna")
 
-
     return result
+
+
+# def matrix_mnoj(massiv1, massiv2, flag=0):
+#     mi = massiv1.shape[1]
+#     mj = massiv1.shape[0]
+#     mk = massiv2.shape[1]
+#
+#     if massiv1.shape[1] == massiv2.shape[0]:
+#         #print("shape of matrix is correct")
+#         #print("shape of result ", massiv1.shape[1], "x", massiv2.shape[0])
+#         razm = massiv1.shape[1]
+#         res = np.array
+#
+#         i = 0
+#         j = 0
+#         k = 0
+#
+#         # print("---------begin---------")
+#         #
+#         # print("massiv1 is", massiv1)
+#         # print("massiv2 is", massiv2)
+#
+#         result = [[0 for k in range(mk)] for l in range(mk)]
+#
+#         for j in range(mk):
+#             # print("j=", j)
+#             for k in range(mk):
+#                 # print("k=", k)
+#                 znacen = 0
+#
+#                 # print("-----------------")
+#                 # print("j is -", j)
+#                 # print("i is -", i)
+#                 #
+#                 # print("k is -", k)
+#                 # print("p is -", p)
+#                 znacen = 0
+#
+#                 for i in range(mi):
+#                     # print("i=", i)
+#                     # print("massiv1[", k, "][", i, "] is -", massiv1[k][i])
+#                     # print("massiv2[", i, "][", j, "] is -", massiv2[i][j])
+#                     # print("massiv1[", k, "][", i, "] * massiv2[", i, "][", j, "] is -", massiv1[k][i] * massiv2[i][j])
+#
+#                     znacen += massiv1[k][i] * massiv2[i][j]
+#                 # znacen = massiv1[i][k]
+#                 # print("znacen = ", znacen)
+#                 result[k][j] = znacen
+#
+#                 i = 0
+#                 znacen = 0
+#
+#         # print("array slicing is work ak[:,1] ->", ak[:,1])
+#         # print("array slicing is work ap[2,:] ->", ap[2,:])
+#
+#         if flag == 1:
+#             print("shape of matrix is correct")
+#             print("shape of result ", massiv1.shape[1], "x", massiv2.shape[0])
+#             print(result)
+#         else:
+#             print("flag is not 1")
+#     else:
+#         print("razmernost matric ne correctna")
+#
+#
+#     return result
 
 
 def masrazm(massiv):

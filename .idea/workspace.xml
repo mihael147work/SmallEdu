@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58774a4c-5ed1-4eea-a307-24a57c875cf8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/testsome.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/numpyPlus.py" beforeDir="false" afterPath="$PROJECT_DIR$/numpyPlus.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tnp1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tnp1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tnp3.py" beforeDir="false" afterPath="$PROJECT_DIR$/tnp3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tnp5.py" beforeDir="false" afterPath="$PROJECT_DIR$/tnp5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testsome.py" beforeDir="false" afterPath="$PROJECT_DIR$/testsome.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,20 +79,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/numpyPlus.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+            <state relative-caret-position="356">
+              <caret line="75" column="36" lean-forward="true" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testsome.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -111,6 +107,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Mihael G &lt;mihael147work@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -123,8 +124,8 @@
         <option value="$PROJECT_DIR$/tnp1.py" />
         <option value="$PROJECT_DIR$/tnp5.py" />
         <option value="$PROJECT_DIR$/tnp3.py" />
-        <option value="$PROJECT_DIR$/numpyPlus.py" />
         <option value="$PROJECT_DIR$/testsome.py" />
+        <option value="$PROJECT_DIR$/numpyPlus.py" />
       </list>
     </option>
   </component>
@@ -305,6 +306,14 @@
       <option name="presentableId" value="Default" />
       <updated>1556042056195</updated>
     </task>
+    <task id="LOCAL-00001" summary="make function of multplication matrix">
+      <created>1568223661177</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568223661177</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -316,7 +325,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4602961" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22745626" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -329,6 +338,10 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="make function of multplication matrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="make function of multplication matrix" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/JS/tpn10.py" />
@@ -384,17 +397,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/numpyPlus.py">
+    <entry file="file://$PROJECT_DIR$/testsome.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testsome.py">
+    <entry file="file://$PROJECT_DIR$/numpyPlus.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        <state relative-caret-position="356">
+          <caret line="75" column="36" lean-forward="true" selection-start-line="75" selection-start-column="36" selection-end-line="75" selection-end-column="36" />
         </state>
       </provider>
     </entry>
